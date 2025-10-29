@@ -1,0 +1,111 @@
+/* Reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Full-screen background */
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+/* Background image overlay */
+.background {
+    background: url('property.jpg') no-repeat center center/cover;
+    filter: brightness(0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Login box */
+.login-container {
+    background: #fff;
+    border-radius: 12px;
+    width: 340px;
+    padding: 30px 40px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.title {
+    color: #0b2154;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* Inputs */
+form label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Forgot Password only */
+.forgot-only {
+    text-align: right;
+    margin: 12px 0;
+}
+
+.forgot-only a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.forgot-only a:hover {
+    text-decoration: underline;
+}
+
+/* Log In button */
+button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0069d9;
+}
+
+/* Sign up section */
+.signup {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
